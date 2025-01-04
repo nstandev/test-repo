@@ -20,7 +20,7 @@ pipeline {
 
          stage('Integrate') {
             steps {
-                echo "Integrating application..."
+                echo "Integrating new feature into application..."
             }
         }
 
