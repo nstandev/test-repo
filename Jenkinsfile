@@ -36,5 +36,6 @@ pipeline {
         }
         failure {
             echo 'Failed to deploy!'
+        }
     }
 }
