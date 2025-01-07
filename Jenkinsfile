@@ -30,4 +30,11 @@ pipeline {
             }
         }
     }
+    post {
+        success {
+            echo 'successfully deployed!'
+        }
+        failure {
+            echo 'Failed to deploy!'
+    }
 }
